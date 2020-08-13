@@ -44,7 +44,7 @@ def main(should_setup_only=False):
 
 def start_island_server(should_setup_only):
     from tornado.httpserver import HTTPServer
-    from tornado.ioloop import IOLoop
+    from tornado.ioloop import IOLoopz
     from tornado.wsgi import WSGIContainer
 
     mongo_url = os.environ.get('MONGO_URL', env_singleton.env.get_mongo_url())

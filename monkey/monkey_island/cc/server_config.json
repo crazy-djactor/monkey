@@ -1,4 +1,6 @@
 {
   "server_config": "password",
-  "deployment": "develop"
+  "deployment": "develop",
+  "user": "evgenytikhonov@outlook.com",
+  "password_hash": "3d685fb93d1fcfbbf0a37a39fa0816bc4fb157d511b46ab483bf588688763df6e92edc3db9dc6a88f4261b606ed8b2a48d81c96c9927d36e92ce89d562737a0c"
 }

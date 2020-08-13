@@ -44,7 +44,11 @@ fi
 log_message "downloaded configuration"
 # shellcheck source=deployment_scripts/config
 # shellcheck disable=SC2086
+
+file="./config"
+
 source $file
+echo $LINUX_32_BINARY_URL
 log_message "loaded configuration"
 # shellcheck disable=SC2086
 # rm $file
